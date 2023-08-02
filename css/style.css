@@ -1,0 +1,89 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+
+body {
+font: normal normal 13px/16px "Open Sans", sans-serif;
+background: #b5acdf;
+}
+
+.container{
+padding: 20px;
+width: 300px;
+margin: 0 auto;
+margin-top: 40px;
+background: rgb(234, 229, 250);
+border-radius: 10px;
+border: 2px solid #08042b
+}
+
+form {
+display: inline-block;
+margin-left: 20px;
+}
+
+input{
+padding: 4px 15px 4px 5px;
+}
+
+#button{
+display: inline-block;
+background-color:#bd1316;
+color:#ffffff;
+border-radius: 5px;
+text-align:center;
+margin-top:2px;
+padding: 5px 15px;
+box-shadow: 2px 3px #999;
+}
+
+#button:active {
+	background-color: #fc999b;
+	box-shadow: none;
+	padding: 4px 14px;
+}
+
+#button:hover{
+cursor: pointer;
+opacity: .8;}
+
+ol {padding-left: 20px;}
+
+ol li {padding: 5px;color:#000;}
+
+ol li:nth-child(even){background: #dfdfdf;}
+
+.strike{text-decoration: line-through;}
+
+li:hover{
+  cursor: pointer;
+ }
+
+.delete {
+	display: none;
+}
+
+li > crossOutButton {
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
+
+h2 {
+	text-align: center;
+	font-size: 28px;
+	text-decoration: underline;
+}
+
+p {
+	text-align: center;
+	line-height: 1.5;
+	font-size: 14px;
+}
+
+.add-item {
+	text-align: center;
+}
+
+
